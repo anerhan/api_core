@@ -1,0 +1,5 @@
+ua:
+  activemodel:
+    errors:
+      messages:
+        record_invalid: Інвалідний запис!

@@ -1,0 +1,5 @@
+---
+Access-Control-Allow-Methods: 'POST, PUT, PATCH, GET, DELETE, OPTIONS'
+Access-Control-Allow-Origin: '*'
+Cache-Control: 'public, max-age=30'
+Content-Type: 'application/json'

@@ -1,0 +1,53 @@
+---
+ua:
+  error:
+    google_token_required: 'UA-Google token required'
+    facebook_token_required: 'UA-Facebook token required'
+    email_dont_match_as_requested: "UA-Email don't match as requested"
+    phone_dont_match_as_requested: "UA-Phone don't match as requested"
+    user_has_not_enough_rights: 'UA-User has not enough rights for this action'
+    user_not_found: 'UA-User not Found'
+    x_user_id_required: 'UA-Target User ID required'
+    invalid_old_password: 'UA-Old password is invalid'
+    new_password_cant_be_as_old: "UA-New password can't be as old"
+    invalid_format:  'UA-Invalid Format'
+    unprocessible_entity: 'UA-Unprocessible Entity'
+    record_invalid: 'UA-Invalid Record'
+    record_not_found: 'UA-Record Not Found'
+    unauthorized: 'UA-Unauthorized'
+    sign_required: 'UA-Sign is required.'
+    invalid_sign: 'UA-Invalid Signature'
+    device_id_required: 'UA-Device ID is required.'
+    user_agent_required: 'UA-User Agent is required.'
+    access_token_required: 'UA-AccessToken is required.'
+    invalid_or_expired_access_token: 'UA-Invalid or expired AccessToken.'
+    user_is_not_authorized_for_access_token: 'UA-User is not Authorized for AccessToken.'
+    email_or_phone_required: 'UA-Email or Phone is required.'
+    email_required: 'UA-Email required.'
+    phone_required: 'UA-Phone required.'
+    password_required: 'UA-Password required.'
+    user_by_email_doesnt_exist: "UA-User by email doesn't exist."
+    user_by_phone_doesnt_exist: "UA-User by phone doesn't exist."
+    invalid_password: 'UA-Invalid password.'
+    terms_are_not_signed: 'UA-Term are not signed.'
+    admin_cannot_delete_self: 'UA-Admin cannot delete self.'
+    admin_cannot_suspend_self: 'UA-Admin cannot suspend self.'
+    unknown_operation: "UA-Unknown operation %{operation}"
+    invalid_authentication: 'UA-Invalid Authentication.'
+    invalid_authorization: 'UA-Invalid Authorization.'
+    requested_source_not_found: 'UA-Requested source not found.'
+    pin_not_found_or_expired: 'UA-Pin not found or expired.'
+    invalid_pin: 'UA-Invalid Pin.'
+    pin_required: 'UA-Pin is required.'
+    pin_already_confirmed: 'UA-Pin already confirmed.'
+    pin_cannot_be_confirmed: 'UA-Pin cannot be confirmed.'
+    pin_cannot_be_created: 'UA-Pin cannot be created'
+    invalid_email_format: 'UA-Invalid Email format'
+    invalid_phone_format: 'UA-Invalid Phone format'
+    email_already_in_use: 'UA-Email already in use'
+    phone_already_in_use: 'UA-Phone already in use'
+    email_not_confirmed: 'UA-Email is not confirmed'
+    phone_not_confirmed: 'UA-Phone is not confirmed'
+    email_not_match: "UA-Assigned Email don't match with current"
+    phone_not_match: "UA-Assigned Phone don't match with current"
+    token_required: 'UA-Token required'

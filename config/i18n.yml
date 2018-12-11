@@ -1,0 +1,13 @@
+default_locale: en
+locales:
+  en:
+    name: English
+    label: en
+    aliases:
+    - en
+  ua:
+    name: Українська
+    label: ua
+    aliases:
+    - ua
+    - uk

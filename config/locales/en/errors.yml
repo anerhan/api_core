@@ -1,0 +1,53 @@
+---
+en:
+  error:
+    google_token_required: 'Google token required'
+    facebook_token_required: 'Facebook token required'
+    email_dont_match_as_requested: "Email don't match as requested"
+    phone_dont_match_as_requested: "Phone don't match as requested"
+    user_has_not_enough_rights: 'User has not enough rights for this action'
+    user_not_found: 'User not Found'
+    x_user_id_required: 'Target User ID required'
+    invalid_old_password: 'Old password is invalid'
+    new_password_cant_be_as_old: "New password can't be as old"
+    invalid_format:  'Invalid Format'
+    unprocessible_entity: 'Unprocessible Entity'
+    record_invalid: 'Invalid Record'
+    record_not_found: 'Record Not Found'
+    unauthorized: 'Unauthorized'
+    sign_required: 'Sign is required.'
+    invalid_sign: 'Invalid Signature'
+    device_id_required: 'Device ID is required.'
+    user_agent_required: 'User Agent is required.'
+    access_token_required: 'AccessToken is required.'
+    invalid_or_expired_access_token: 'Invalid or expired AccessToken.'
+    user_is_not_authorized_for_access_token: 'User is not Authorized for AccessToken.'
+    email_or_phone_required: 'Email or Phone is required.'
+    email_required: 'Email required.'
+    phone_required: 'Phone required.'
+    password_required: 'Password required.'
+    user_by_email_doesnt_exist: "User by email doesn't exist."
+    user_by_phone_doesnt_exist: "User by phone doesn't exist."
+    invalid_password: 'Invalid password.'
+    terms_are_not_signed: 'Term are not signed.'
+    admin_cannot_delete_self: 'Admin cannot delete self.'
+    admin_cannot_suspend_self: 'Admin cannot suspend self.'
+    unknown_operation: "Unknown operation %{operation}"
+    invalid_authentication: 'Invalid Authentication.'
+    invalid_authorization: 'Invalid Authorization.'
+    requested_source_not_found: 'Requested source not found.'
+    pin_not_found_or_expired: 'Pin not found or expired.'
+    invalid_pin: 'Invalid Pin.'
+    pin_required: 'Pin is required.'
+    pin_already_confirmed: 'Pin already confirmed.'
+    pin_cannot_be_confirmed: 'Pin cannot be confirmed.'
+    pin_cannot_be_created: 'Pin cannot be created'
+    invalid_email_format: 'Invalid Email format'
+    invalid_phone_format: 'Invalid Phone format'
+    email_already_in_use: 'Email already in use'
+    phone_already_in_use: 'Phone already in use'
+    email_not_confirmed: 'Email is not confirmed'
+    phone_not_confirmed: 'Phone is not confirmed'
+    email_not_match: "Assigned Email don't match with current"
+    phone_not_match: "Assigned Phone don't match with current"
+    token_required: 'Token required'

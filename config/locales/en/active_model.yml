@@ -1,0 +1,5 @@
+en:
+  activemodel:
+    errors:
+      messages:
+        record_invalid: Record Invalid!

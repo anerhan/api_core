@@ -1,0 +1,251 @@
+---
+en:
+  date:
+    formats:
+      default: "%d.%m.%Y"
+      short: "%d %b"
+      long: "%d %B %Y"
+      chart: "%d %b %Y"
+
+    day_names:
+      - Sunday
+      - Monday
+      - Tuesday
+      - Wednesday
+      - Thursday
+      - Friday
+      - Saturday
+    standalone_day_names:
+      - Sunday
+      - Monday
+      - Tuesday
+      - Wednesday
+      - Thursday
+      - Friday
+      - Saturday
+    abbr_day_names:
+      - Sun
+      - Mon
+      - Tues
+      - Wed
+      - Thurs
+      - Fri
+      - Sat
+
+    month_names:
+      - ~
+      - January
+      - February
+      - March
+      - April
+      - May
+      - June
+      - July
+      - August
+      - September
+      - October
+      - November
+      - December
+    # see russian gem for info on "standalone" day names
+    standalone_month_names:
+      - ~
+      - January
+      - February
+      - March
+      - April
+      - May
+      - June
+      - July
+      - August
+      - September
+      - October
+      - November
+      - December
+    abbr_month_names:
+      - ~
+      - Jan.
+      - Feb.
+      - March
+      - April.
+      - May
+      - June
+      - July
+      - August.
+      - Sept.
+      - October.
+      - November.
+      - Dec.
+    standalone_abbr_month_names:
+      - ~
+      - Jan.
+      - Feb.
+      - March
+      - April.
+      - May
+      - June
+      - July
+      - August.
+      - Sept.
+      - October.
+      - November.
+      - Dec.
+
+    order:
+      - :day
+      - :month
+      - :year
+
+  time:
+    formats:
+      default: "%a, %d %b %Y, %H:%M:%S %z"
+      short: "%d %b, %H:%M"
+      long: "%d %B %Y, %H:%M"
+      dm: "%d.%m"
+      dmy: "%d.%m.%Y"
+      datepicker: "%d-%m-%Y"
+      datetimepicker: "%d %b %Y, %H:%M"
+      chart: "%d %b %Y"
+      dmyhm: "%d.%m.%Y %H:%M"
+
+      am: "am"
+      pm: "pm"
+
+    number:
+      format:
+        separator: "."
+        delimiter: " "
+        precision: 3
+        significant: false
+        strip_insignificant_zeros: false
+
+      currency:
+        format:
+          format: "%n %u"
+          unit: "£."
+          separator: "."
+          delimiter: " "
+          precision: 2
+          significant: false
+          strip_insignificant_zeros: false
+
+      percentage:
+        format:
+          delimiter: ""
+
+      precision:
+        format:
+          delimiter: ""
+
+      human:
+        format:
+          delimiter: ""
+          precision: 1
+          significant: false
+          strip_insignificant_zeros: false
+
+        # Rails 2.2
+        # storage_units: [байт, КБ, МБ, ГБ, ТБ]
+
+        # Rails 2.3
+        storage_units:
+          # Storage units output formatting.
+          # %u is the storage unit, %n is the number (default: 2 MB)
+          format: "%n %u"
+          units:
+            byte:
+              one:   "byte"
+              few:   "byte"
+              many:  "byte"
+              other: "byte"
+            kb: "KB"
+            mb: "MB"
+            gb: "GB"
+            tb: "TB"
+
+        # Rails 3
+        decimal_units:
+          format: "%n %u"
+          units:
+            unit: ""
+            thousand:
+              one: "Thousand"
+              few: "Thousands"
+              many: "Thousands"
+              other: "Thousands"
+            million:
+              one: "Million"
+              few: "Millions"
+              many: "Millions"
+              other: "Millions"
+            billion:
+              one: "Billion"
+              few: "Billions"
+              many: "Billions"
+              other: "Billions"
+            trillion:
+              one: "Trillions"
+              few: "Trillions"
+              many: "Trillions"
+              other: "Trillions"
+            quadrillion:
+              one: "Quadrillion"
+              few: "Quadrillions"
+              many: "Quadrillions"
+              other: "Quadrillions"
+
+    datetime:
+      distance_in_words:
+        half_a_minute: "less than a minute"
+        less_than_x_seconds:
+          one:   "less then%{count} second"
+          few:   "less then %{count} seconds"
+          many:  "less then %{count} seconds"
+          other: "less then %{count} second"
+        x_seconds:
+          one:   "%{count} second"
+          few:   "%{count} second"
+          many:  "%{count} seconds"
+          other: "%{count} second"
+        less_than_x_minutes:
+          one:   "less then %{count} minute"
+          few:   "less then %{count} minutes"
+          many:  "less then %{count} minutes"
+          other: "less then %{count} minute"
+        x_minutes:
+          one:   "%{count} minute"
+          few:   "%{count} minutes"
+          many:  "%{count} minute"
+          other: "%{count} minute"
+        about_x_hours:
+          one:   "near %{count} hour"
+          few:   "near %{count} hours"
+          many:  "near %{count} hours"
+          other: "near %{count} hour"
+        x_days:
+          one:   "%{count} day"
+          few:   "%{count} day"
+          many:  "%{count} days"
+          other: "%{count} day"
+        about_x_months:
+          one:   "near %{count} month"
+          few:   "near %{count} months"
+          many:  "near %{count} months"
+          other: "near %{count} month"
+        x_months:
+          one:   "%{count} month"
+          few:   "%{count} month"
+          many:  "%{count} months"
+          other: "%{count} month"
+        about_x_years:
+          one:   "near %{count} year"
+          few:   "near %{count} years"
+          many:  "near %{count} years"
+          other: "near %{count} years"
+        over_x_years:
+          one:   "more then %{count} year"
+          few:   "more then %{count} years"
+          many:  "more then %{count} years"
+          other: "more then %{count} years"
+        almost_x_years:
+          one:   "almost 1 year"
+          other: "almost %{count} years"
